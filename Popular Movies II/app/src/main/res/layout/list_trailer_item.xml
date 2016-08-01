@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/play_icon"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="5px"
+        android:src="@drawable/play" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/trailer_name"
+        android:layout_width="match_parent"
+        android:text="@string/reviews"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_height="match_parent">
+    </TextView>
+
+
+
+</LinearLayout>
